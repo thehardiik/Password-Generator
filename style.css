@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: azure;
+    transition: all linear 0.2;
+}
+
+.cursor {
+    display: flex;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    background-color: azure;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    z-index: 9999;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 9vw;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.button {
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: medium;
+    background-color: azure;
+    color: black;
+    margin-top: 4%;
+    z-index: 10000000;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+
+
