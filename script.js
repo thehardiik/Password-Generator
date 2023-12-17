@@ -6,8 +6,8 @@ console.log(button)
 console.log(gen)
 
 main.addEventListener("mousemove" , (e) => {
-    cursor.style.left = e.x + 10 + "px";
-    cursor.style.top = e.y + 10 + "px";
+    cursor.style.left = e.x  + "px";
+    cursor.style.top = e.y + "px";
     cursor.style.height = "30px";
     cursor.style.width = "30px";
 })
