@@ -26,7 +26,7 @@ const generate = () => {
     gen.innerHTML = password;
 }
 
-const generatingInterval = setInterval(generate, 200);
+const generatingInterval = setInterval(generate, 100);
 
 
 button.addEventListener("click" , () => {
