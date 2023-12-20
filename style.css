@@ -51,12 +51,70 @@ h1 {
     background-color: azure;
     color: black;
     margin-top: 4%;
-    z-index: 10000000;
+    margin-right: 2px;
+    z-index: 9999;
 }
 
 .button:hover {
     cursor: pointer;
-    background-color: aquamarine;
+    background-color: aqua;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#settings {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 10vw;
+    margin-top: 0px;
+    background-color: black;
+    color: azure;
+    
+    font-size: 2vmax;
+}
+
+#settings  :hover {
+    color: aqua;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    position: absolute;
+    height: 40vh;
+    width: 20vw;
+    background-color: white;
+    color: black;
+    z-index: 999999;
+}
+
+
+
+.check{
+     margin-top: 20px;
+     display: flex;
+     flex-direction: row;
+}
+
+.submit {
+    margin-top: 20px;
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    border: none;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: rgb(192, 252, 27);
+    color: black;
 }
 
 
